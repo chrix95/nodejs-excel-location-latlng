@@ -1,0 +1,20 @@
+{
+  "name": "asolar-geo-tagging",
+  "version": "1.0.0",
+  "description": "A script to fetch lat and long and get the address name and update the values",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "xlsx": "^0.17.0"
+  }
+}
